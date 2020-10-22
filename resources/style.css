@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color :#DBCA69;
+    opacity: 85%;
+    border-bottom: 2px solid;
+    position: fixed;
+    width: 100%;
+    height: 66px;
+   }
+
+#logoIcon {
+    height: 64px;
+    margin: -8px 0 21px 24px;
+   }
+
+#fullLogo {    
+    display: inline-flex; 
+    font-size: 32px;
+    margin: 16px 0 18px 24px;
+   }
+
+.nav-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 24px;
+    
+   }
+#nav-links {
+    display: inline-flex; 
+    float: right;
+    margin-right: 24px;
+    
+}
+
+ul {
+    text-align: right;
+    
+   }
+li {
+    display: inline-flex;
+    padding: 16px;
+ 
+   }
+
+   #hero {
+    background-color: royalblue;
+    }
+
+#banner {
+    width: 60%;
+    height: auto;
+   }
+   
+#practicing {
+    background-color: #DBCA69;
+    
+    
+}
+
+#infoMain {
+    width: 60%;
+    height: auto; 
+    
+}
+
+#learning {
+    background-color: royalblue;
+}
+
+#thesis {
+    background-color: #DBCA69;
+}
+
+#play {
+    width: 60%;
+    height: auto; 
+}
