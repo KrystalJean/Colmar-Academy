@@ -48,24 +48,38 @@ li {
 
    #hero {
     background-color: royalblue;
+    padding-top: 66px;
+    
     }
 
 #banner {
     width: 60%;
     height: auto;
+    padding: 32px 24px;
+    
    }
+.hero-text-container {
+    width: 40%;
+    display: inline;
+    
+    
+}
    
 #practicing {
-    background-color: #DBCA69;
-    
-    
+    background-color: #cfceca;  
 }
 
-#infoMain {
+#practicing-img {
+padding-bottom: 32px;
+}
+
+.infoMain {
     width: 60%;
     height: auto; 
-    
+    padding: 0 24px 32px 24px;
 }
+
+
 
 #learning {
     background-color: royalblue;
