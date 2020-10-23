@@ -1,60 +1,116 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Codecademy-Colmar Academy</title>
-        <meta charset="utf-8">
-	    <link href = "resources/style.css" rel = "stylesheet" type="text/css">
-    </head>
 
-    <body>
-        <header>
-            <nav id="navbar">
-                <div id="fullLogo">
-                    <img id="logoIcon" class="logo" src="resources/images/ic-logo.svg" alt="standing lion in solid black">
-                    <h4 id="logoText" class="logo">COLMAR ACADEMY</h4>
-                </div>
-            
-                <div id="nav-links">
-                    <ul>
-                        <li><a class="nav-link" href="#onCampus">On campus</a></li>
-                        <li><a class="nav-link" href="#online">Online</a></li>
-                        <li><a class="nav-link" href="#forCompanies">For companies</a></li>  
-                        <li><a class="nav-link" href="#signIn">Sign in</a></li> 
-                    </ul>
-                </div>
-            </nav>
-        </header>
-     
-        
-        <div id="hero">
-            <img id="banner" src="resources/images/banner.jpg" alt="students study at outdoor table"> 
+<head>
+    <title>Codecademy-Colmar Academy</title>
+    <meta charset="utf-8">
+    <link href="resources/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <!--*****SECTION NAVBAR*****-->
+
+    <header>
+        <nav id="navbar">
+            <div id="fullLogo">
+                <img id="logoIcon" class="logo" src="resources/images/ic-logo.svg" alt="standing lion in solid black">
+                <h4 id="logoText" class="logo">COLMAR ACADEMY</h4>
+            </div>
+
+            <div id="nav-links">
+                <ul>
+                    <li><a class="nav-link" href="#onCampus">On campus</a></li>
+                    <li><a class="nav-link" href="#online">Online</a></li>
+                    <li><a class="nav-link" href="#forCompanies">For companies</a></li>
+                    <li><a class="nav-link" href="#signIn">Sign in</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--*****SECTION 1 HERO BANNER*****-->
+
+    <div id="hero">
+        <img id="banner" src="resources/images/banner.jpg" alt="students study at outdoor table">
         <div id="hero-text-container">
             <h1 class="hero-text-container">Learn something new everyday</h1>
-            <p class="hero-text-container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat consectetur doloremque accusantium ipsam aspernatur enim odio nesciunt excepturi? Vel voluptatem assumenda laborum asperiores omnis iure similique quas recusandae corporis aperiam!</p>
+            <p class="hero-text-container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat consectetur
+                doloremque accusantium ipsam aspernatur enim odio nesciunt excepturi? Vel voluptatem assumenda laborum
+                asperiores omnis iure similique quas recusandae corporis aperiam!</p>
             <button id="startButton" class="hero-text-container">Start here</button>
         </div>
     </div>
 
-        <div id="practicing">
-            <img id="practicing-img" class="infoMain" src="resources/images/information-main.jpg" alt="Man reading book outdoors">
-            
-                <h1 class="infoMain">It doesn't hurt to keep practicing</h1>
-                <p class="infoMain">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quasi rerum earum error, aliquam nisi. Veniam, enim magnam dicta officia delectus a odio hic! Molestiae vero aliquam veniam earum facere!</p>
-                <h4 class="infoMain">Emanuel, Sr Strategist at Hiring.com</h4>
-            
-            
+    <!--*****SECTION 2 PRACTICING*****-->
+
+    <div id="practicing">
+        <div id="infoMain">
+            <img class="practicing-img" src="resources/images/information-main.jpg" alt="Man reading book outdoors">
+            <h1 class="infoMain">It doesn't hurt to keep practicing</h1>
+            <p id="practicingImageP" class="infoMain">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                quasi rerum earum error, aliquam nisi. Veniam, enim magnam dicta officia delectus a odio hic! Molestiae
+                vero aliquam veniam earum facere!</p>
+            <h4 class="infoMain">Emanuel, Sr Strategist at Hiring.com</h4>
+        </div>
+
+        <div id="currentEventsContainer">
+
+            <div id="currentEventOne" class="currentEvent">
+                <img id="eventOneImage" class="eventImages" src="resources/images/information-orientation.jpg"
+                    alt="shadows at the crosswalk">
+                <div id="eventOneText" class="eventTexts">
+                    <h1>Orientation Date</h1>
+                    <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                    <h4>Read More</h4>
+                </div>
+            </div>
+
+            <div id="currentEventTwo" class="currentEvent">
+                <img id="eventTwoImage" class="eventImages" src="resources/images/information-campus.jpg"
+                    alt="bistro setting, framed map of africa on wall">
+                <div id="eventTwoText" class="eventTexts">
+                    <h1>Our Campus</h1>
+                    <p>Find which campus is close by you</p>
+                    <h4>Read More</h4>
+                </div>
+            </div>
+
+            <div id="currentEventThree" class="currentEvent">
+                <img id="eventThreeImage" class="eventImages" src="resources/images/information-guest-lecture.jpg"
+                    alt="photo of guest lecturer">
+                <div id="eventThreeText" class="eventTexts">
+                    <h1>Our Guest Lecturer</h1>
+                    <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                    <h4>Read More</h4>
+                </div>
+            </div>
 
         </div>
-        <div id="learning">
-            <h1>Start learning</h1>
 
-        </div>
-        <div id="thesis">
-            <h1>Thesis exhibit</h1>
-            <video id="play" src="resources/videos/thesis.mp4" alt="Man reading book outdoors" controls></video>
-            <h1>Reimagine urban</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+    </div>
 
-        </div>
-    </body>
+
+    <!--******SECTION 3 LEARNING*******-->
+
+    <div id="learning">
+        <h1>Start learning</h1>
+
+    </div>
+
+    <!--*****SECTION 4 THESIS********-->
+
+
+    <div id="thesis">
+        <h1>Thesis exhibit</h1>
+        <video id="play" src="resources/videos/thesis.mp4" alt="Man reading book outdoors" controls></video>
+        <h1>Reimagine urban</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+
+    </div>
+
+    <!--*****SECTION FOOTER********-->
+
+</body>
+
 </html>
