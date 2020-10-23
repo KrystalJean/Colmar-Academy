@@ -60,7 +60,17 @@ li {
    }
 #hero-text-container {
     width: 40%;
-    margin: 32px 72px 32px 0;
+    margin: 32px 72px 32px 0;   
+}
+
+.hero-text-container {
+    margin-bottom: 15px;
+    padding: 8px 0;
+    
+}
+
+#startButton {
+    width: 100%;
     
 }
    
