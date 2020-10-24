@@ -152,30 +152,44 @@ li {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     /*  <!--******SECTION 3 LEARNING*******-->  */
+
+.sectionTitle {
+    text-align: center;
+    padding-top: 32px;
+}
 
 #learning {
     background-color: royalblue;
 }
+
+#learningTilesContainer {
+    display: block;
+    padding: 32px 72px;
+}
+
+.learningTileRows {
+    width: 100%
+}
+
+.learningTile {
+    background-color: #cfceca;
+    margin: 5px;
+    display: inline-block;
+}
+
+.tileImages {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
 
 
                         /*<!--*****SECTION 4 THESIS********-->*/
