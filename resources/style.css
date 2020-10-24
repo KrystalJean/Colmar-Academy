@@ -165,18 +165,23 @@ li {
 
 #learningTilesContainer {
     display: block;
-    padding: 0 40px;
+    padding: 16px 54px;
+    
 }
 
 .learningTileRows {
-    width: 100%
+    width: 100%;
+    
 }
 
 .learningTile {
-    background-color: #cfceca;
-    margin: 5px;
+    background-color :#f1e495;
+    
     display: inline-block;
-    margin: 32px;
+    margin: 16px;
+    align-content: center;
+    border: black 1px solid;
+    
 }
 
 .tileImages {
@@ -184,11 +189,23 @@ li {
     height: auto;
 }
 
-
-
-
-
-
+.tileTexts {
+    padding: 16px 16px 24px 16px;
+    
+}
+.coursesText {
+    margin: 8px 0;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #cfceca;
+    opacity: 80%;
+    width: 20%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: rgb(159, 160, 161) 1px solid;
+    
+}
 
 
 
@@ -196,14 +213,73 @@ li {
                         /*<!--*****SECTION 4 THESIS********-->*/
 
 #thesis {
-    background-color: #DBCA69;
+    background-color: #cfceca;
+    width: 100%;
+    height: auto;
+    }
+
+#thesisTitle {    
+    text-align: center;
+    padding-top: 32px;
+}   
+
+#thesisContainer {
+    display: flex;
+
+    }
+
+#videoContainer {
+    margin: 32px 24px;
+        width: 60%;
+        height: auto; 
+}
+
+#exhibitsContainer {
+    width: 40%;
+    height: auto;
+    display: inline-block;
+    margin: 32px 24px 32px 0;
+    
+}
+
+.videoContainer {
+    width: 100%;
+    height: auto;
 }
 
 #play {
-    width: 60%;
-    height: auto; 
+    margin-bottom: 16px;
 }
 
+#videoTitle {
+    padding-bottom: 8px;
+}
+ 
+    .exhibits {
+        width: 100%;
+        height: auto;
+        display: flex;
+        background-color: rgb(159, 160, 161);
+        margin-bottom: 10px;
+    }
+    
+    .exhibitImages {
+        width: 35%;
+        height: auto;
+        padding: 16px;
+    }
+    
+    .exhibitTexts {
+        width: 65%;
+        height: auto;
+        margin: auto;
+        padding: 16px 16px 16px 0;
+    }
+    
+    
+    .exhibitTextP {
+        margin: 8px 0; 
+    }
 
                           /*<!--*****SECTION FOOTER********-->*/
 
