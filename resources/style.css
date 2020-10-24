@@ -165,7 +165,7 @@ li {
 
 #learningTilesContainer {
     display: block;
-    padding: 32px 72px;
+    padding: 0 40px;
 }
 
 .learningTileRows {
@@ -176,6 +176,7 @@ li {
     background-color: #cfceca;
     margin: 5px;
     display: inline-block;
+    margin: 32px;
 }
 
 .tileImages {
