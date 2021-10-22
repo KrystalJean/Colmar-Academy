@@ -173,7 +173,8 @@ li {
 }
 
 #learningTilesContainer {
-    display: block;
+/*     display: block; */
+    display: flex;
     padding: 16px 54px;
     
 }
@@ -186,8 +187,9 @@ li {
 .learningTile {
     background-color :#f1e495;
     
-    display: inline-block;
-    margin: 16px;
+/*     display: inline-block; */
+/*     margin: 16px; */
+    margin: 35px;
     align-content: center;
     border: black 1px solid;
     
