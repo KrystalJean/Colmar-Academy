@@ -1,3 +1,3 @@
 # Colmar-Academy
 
-Project for Codecademy.
+Demo site for a school.
