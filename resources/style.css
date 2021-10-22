@@ -37,6 +37,20 @@
     text-align: right;
 }
 
+#nav-links .nav-link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background-color: royalblue;
+    transition: width .4s;
+
+}
+#nav-links .nav-link:hover::after{
+    width: 100%;
+    transition: width .4s;
+}
+
 li {
     display: inline-flex;   
 }
