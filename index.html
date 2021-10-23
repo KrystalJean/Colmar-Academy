@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Codecademy-Colmar Academy</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="resources/style.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -18,7 +19,7 @@
                 <h4 id="logoText" class="logo">COLMAR ACADEMY</h4>
             </div>
 
-            <div id="nav-links">
+            <div id="nav-links" role="navigation">
                 <ul>
                     <li><a class="nav-link" href="#onCampus">On campus</a></li>
                     <li><a class="nav-link" href="#online">Online</a></li>
@@ -31,13 +32,13 @@
 
     <!--*****SECTION 1 HERO BANNER*****-->
 
-    <div id="hero">
+    <div id="hero" role="region" aria-labelledby="heroTitle">
         <div id="heroImageContainer">
             <img id="heroImage" src="resources/images/banner.jpg" alt="students study at outdoor table">
         </div>
         <div id="heroTextContainer">
             <div id="heroText">
-                <h1>Learn something new everyday</h1>
+                <h1 id="heroTitle">Learn something new everyday</h1>
                 <p id="heroImageP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat consectetur
                     doloremque accusantium ipsam aspernatur enim odio nesciunt excepturi? Vel voluptatem assumenda
                     laborum
@@ -49,10 +50,10 @@
     </div>
     <!--*****SECTION 2 PRACTICING*****-->
 
-    <div id="practicing">
+    <div id="practicing" role="region" aria-labelledby="infoMainTitle">
         <div id="infoMain">
             <img id="practicingImage" src="resources/images/information-main.jpg" alt="Man reading book outdoors">
-            <h1 class="infoMain">It doesn't hurt to keep practicing</h1>
+            <h1 id="infoMainTitle" class="infoMain">It doesn't hurt to keep practicing</h1>
             <p id="practicingImageP" class="infoMain">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
                 quasi rerum earum error, aliquam nisi. Veniam, enim magnam dicta officia delectus a odio hic! Molestiae
                 vero aliquam veniam earum facere!</p>
@@ -96,16 +97,12 @@
 
     <!--******SECTION 3 LEARNING*******-->
 
-    <div id="learning">
-        <h1 class="sectionTitle">Start learning</h1>
-
-
+    <div id="learning" role="region" aria-labelledby="sectionTitle">
+        <h1 id="sectionTitle" class="sectionTitle">Start learning</h1>
         <div id="learningTilesContainer">
-
             <div id="learningTileRowOne" class="learningTileRows">
-
                 <div id="learningTileOne" class="learningTile">
-                    <img id="tileOneImage" class="tileImages" src="resources/images/course-software.jpg" alt="">
+                    <img id="tileOneImage" class="tileImages" src="resources/images/course-software.jpg" alt="software-course">
                     <div id="tileOneText" class="tileTexts">
                         <h2>Software engineering</h2>
                         <p class="coursesText">Courses</p>
@@ -115,7 +112,7 @@
                 </div>
 
                 <div id="learningTileTwo" class="learningTile">
-                    <img id="tileTwoImage" class="tileImages" src="resources/images/course-computer-art.jpg" alt="">
+                    <img id="tileTwoImage" class="tileImages" src="resources/images/course-computer-art.jpg" alt="computer-art-course">
                     <div id="tileTwoText" class="tileTexts">
                         <h2>Computer art</h2>
                         <p class="coursesText">Courses</p>
@@ -124,7 +121,7 @@
                 </div>
 
                 <div id="learningTileThree" class="learningTile">
-                    <img id="tileThreeImage" class="tileImages" src="resources/images/course-design.jpg" alt="">
+                    <img id="tileThreeImage" class="tileImages" src="resources/images/course-design.jpg" alt="course-design">
                     <div id="tileThreeText" class="tileTexts">
                         <h2>Design</h2>
                         <p class="coursesText">Courses</p>
@@ -139,7 +136,7 @@
                 <div id="learningTileFour" class="learningTile">
 
 
-                    <img id="tileFourImage" class="tileImages" src="resources/images/course-data.jpg" alt="">
+                    <img id="tileFourImage" class="tileImages" src="resources/images/course-data.jpg" alt="course-data">
 
 
                     <div id="tileFourText" class="tileTexts">
@@ -153,7 +150,7 @@
 
 
                 <div id="learningTileFive" class="learningTile">
-                    <img id="tileFiveImage" class="tileImages" src="resources/images/course-business.jpg" alt="">
+                    <img id="tileFiveImage" class="tileImages" src="resources/images/course-business.jpg" alt="course-business">
                     <div id="tileFiveText" class="tileTexts">
                         <h2>Business</h2>
                         <p class="coursesText">Courses</p>
@@ -162,7 +159,7 @@
                 </div>
 
                 <div id="learningTileSix" class="learningTile">
-                    <img id="tileSixImage" class="tileImages" src="resources/images/course-marketing.jpg" alt="">
+                    <img id="tileSixImage" class="tileImages" src="resources/images/course-marketing.jpg" alt="course-marketing">
                     <div id="tileSixText" class="tileTexts">
                         <h2>Marketing</h2>
                         <p class="coursesText">Courses</p>
@@ -178,7 +175,7 @@
     <!--*****SECTION 4 THESIS********-->
 
 
-    <div id="thesis">
+    <div id="thesis" role="region" aria-labelledby="thesisTitle">
         <h1 id="thesisTitle">Thesis exhibit</h1>
 
         <div id="thesisContainer">
@@ -195,7 +192,7 @@
 
 
                 <div id="exhibitOne" class="exhibits">
-                    <img id="exhibitOneImage" class="exhibitImages" src="resources/images/thesis-fisma.jpg" alt="">
+                    <img id="exhibitOneImage" class="exhibitImages" src="resources/images/thesis-fisma.jpg" alt="fisma-thesis">
                     <div id="exhibitOneText" class="exhibitTexts">
                         <h2>Fisma: Design and Prototype</h2>
                         <p class="exhibitTextP">Designer showcase of new prototype product</p>
@@ -204,7 +201,7 @@
 
                 <div id="exhibitTwo" class="exhibits">
                     <img id="exhibitTwoImage" class="exhibitImages" src="resources/images/thesis-now-and-then.jpg"
-                        alt="">
+                        alt="exhibit-image">
                     <div id="exhibitTwoText" class="exhibitTexts">
                         <h2>Now and Then</h2>
                         <p class="exhibitTextP">Research study about New York</p>
