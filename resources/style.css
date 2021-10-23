@@ -37,6 +37,20 @@
     text-align: right;
 }
 
+#nav-links .nav-link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background-color: royalblue;
+    transition: width .4s;
+
+}
+#nav-links .nav-link:hover::after{
+    width: 100%;
+    transition: width .4s;
+}
+
 li {
     display: inline-flex;   
 }
@@ -159,7 +173,8 @@ li {
 }
 
 #learningTilesContainer {
-    display: block;
+/*     display: block; */
+    display: flex;
     padding: 16px 54px;
     
 }
@@ -172,8 +187,9 @@ li {
 .learningTile {
     background-color :#f1e495;
     
-    display: inline-block;
-    margin: 16px;
+/*     display: inline-block; */
+/*     margin: 16px; */
+    margin: 35px;
     align-content: center;
     border: black 1px solid;
     
