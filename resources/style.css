@@ -37,7 +37,7 @@
     text-align: right;
 }
 
-/* #nav-links .nav-link::after{
+#nav-links .nav-link::after{
     content: '';
     display: block;
     width: 0;
@@ -49,7 +49,7 @@
 #nav-links .nav-link:hover::after{
     width: 100%;
     transition: width .4s;
-} */
+}
 
 li {
     display: inline-flex;   
