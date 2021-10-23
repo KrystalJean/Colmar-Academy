@@ -489,8 +489,30 @@ a:hover {
 }
 
 
+/* add the responsiveness to the hero banner section */ 
 
-
-
+@media screen and (max-width:767px) {
+    /*  <!--*****SECTION 1 HERO BANNER*****--> */
+    #hero {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    #heroImageContainer {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0;
+    }
+    #heroImageContainer img {
+        max-width: 100%;
+    }
+    #heroTextContainer {
+        width: 100%;
+        height: auto;
+        padding:32px 16px;
+    }
+}
 
 
