@@ -4,7 +4,8 @@
 }
 
 #navbar {
-    background-color :#DBCA69;
+/*     background-color :#DBCA69; */
+     background-image: linear-gradient(to left, #DBCA69, royalblue);
     opacity: 85%;
     border-bottom: 2px solid;
     position: fixed;
@@ -59,7 +60,8 @@ li {
 /*  <!--*****SECTION 1 HERO BANNER*****--> */
 
 #hero {
-    background-color: royalblue;
+/*     background-color: royalblue; */
+    background-image: linear-gradient(#DBCA69, royalblue);
     padding-top: 66px;
     display: inline-flex;
     width: 100%;
@@ -103,7 +105,8 @@ li {
   /*<!--*****SECTION 2 PRACTICING*****--> */
    
 #practicing {
-    background-color: #cfceca;  
+/*     background-color: #cfceca;   */
+     background-image: linear-gradient(#DBCA69,  #cfceca);
     display: inline-flex;
     width: 100%;
     height: auto;
@@ -169,8 +172,8 @@ li {
 }
 
 #learning {
-    background-color: royalblue;
-}
+/*     background-color: royalblue; */
+      background-image: linear-gradient(#DBCA69, #cfceca, royalblue);
 
 #learningTilesContainer {
 /*     display: block; */
@@ -220,7 +223,8 @@ li {
  /*<!--*****SECTION 4 THESIS********-->*/
 
 #thesis {
-    background-color: #cfceca;
+/*     background-color: #cfceca; */
+    background-image: linear-gradient(  #cfceca 70%, #DBCA69 );
     width: 100%;
     height: auto;
 }
@@ -371,7 +375,8 @@ li {
 
 /* footer begin from here  */
 footer {
-    background-color: #c3bb7b;
+/*     background-color: #c3bb7b; */
+    background-image: linear-gradient(#cfceca,  royalblue);
     color: #fff;
     font-family: "Inter", sans-serif;
     width: 100%;
