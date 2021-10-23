@@ -369,6 +369,115 @@ li {
     transition: width .2s ease-out, padding-top .2s ease-out;
 }
 
+/* footer begin from here  */
+footer {
+    background-color: #c3bb7b;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+}
+.footerContent {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+.column1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.column1 h5 {
+    font-size: 1.5rem;
+}
+.column1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.column2 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    padding: 5px 20px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.1);
+    margin: 5px 2px;
+    display: inline-block;
+}
+
+.column2 a:hover {
+    color: rgb(170, 111, 0);
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.column2 p {
+    font-size: 2.5em;
+    margin: 0;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.contactLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contactIcons {
+    width: 80%;
+    margin: auto;
+}
+.copy {
+    /* height: 5vh; */
+    display: flex;
+    justify-content: center;
+}
+/* Code for responsive footer  */
+@media (max-width: 890px) {
+    .column1,
+    .column2 {
+        width: 50%;
+    }
+    .contactLinks {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    .footerContent {
+        justify-content: center;
+    }
+    .column1 {
+        margin: 15px 0;
+        padding-left: 4%;
+    }
+    .column2 {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        padding-left: 4%;
+    }
+}
+/* Code for responsive footer ends here  */
+
+
+
+
+
 /* Styles, not important */
 *, *:before, *:after {
     box-sizing: border-box;
