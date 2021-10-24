@@ -4,7 +4,7 @@
 }
 
 #navbar {
-    background-color :#DBCA69;
+    background: linear-gradient(90deg, rgba(232,216,67,1) 0%, rgba(219,202,105,1) 100%);
     opacity: 85%;
     border-bottom: 2px solid;
     position: fixed;
@@ -59,7 +59,7 @@ li {
 /*  <!--*****SECTION 1 HERO BANNER*****--> */
 
 #hero {
-    background-color: royalblue;
+    background: linear-gradient(0deg, rgba(43,88,226,1) 0%, rgba(9,66,231,1) 1%, rgba(46,92,222,1) 14%, rgba(48,93,222,1) 21%, rgba(73,110,216,1) 35%, rgba(88,118,199,1) 59%, rgba(232,216,67,1) 98%);
     padding-top: 66px;
     display: inline-flex;
     width: 100%;
@@ -103,7 +103,7 @@ li {
   /*<!--*****SECTION 2 PRACTICING*****--> */
    
 #practicing {
-    background-color: #cfceca;  
+    background: linear-gradient(0deg, rgba(170,170,169,1) 2%, rgba(207,206,202,1) 98%);
     display: inline-flex;
     width: 100%;
     height: auto;
@@ -169,7 +169,7 @@ li {
 }
 
 #learning {
-    background-color: royalblue;
+    background: linear-gradient(0deg, rgba(43,88,226,1) 0%, rgba(9,66,231,1) 1%, rgba(46,92,222,1) 14%, rgba(48,93,222,1) 21%, rgba(73,110,216,1) 35%, rgba(88,118,199,1) 59%, rgba(210,188,62,1) 98%, rgba(163,161,115,1) 100%);
 }
 
 #learningTilesContainer {
@@ -272,7 +272,7 @@ li {
     width: 100%;
     height: auto;
     display: flex;
-    background-color: rgb(159, 160, 161);
+    background: linear-gradient(0deg, rgba(170,170,169,1) 2%, rgba(207,206,202,1) 98%);
     margin-bottom: 10px;
 }
     
@@ -377,7 +377,7 @@ li {
 
 /* footer begin from here  */
 footer {
-    background-color: #c3bb7b;
+    background: linear-gradient(90deg, rgba(219,202,105,1) 0%, rgba(210,188,62,1) 100%);
     color: #fff;
     font-family: "Inter", sans-serif;
     width: 100%;
