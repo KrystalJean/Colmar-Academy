@@ -204,11 +204,17 @@ li {
     padding: 16px 16px 24px 16px;
     
 }
+
+.tileTexts .coursesDescriptionText{
+    font-size: 18px;
+}
+
 .coursesText {
     margin: 8px 0;
     font-size: 18px;
     color: #ffffff;
-    background-color: #cfceca;
+/*     background-color: #cfceca; */
+    background-color: #3c50a8;
     opacity: 80%;
     width: 20%;
     text-align: center;
