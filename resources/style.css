@@ -452,6 +452,18 @@ a:hover {
     display: flex;
     justify-content: center;
 }
+
+
+
+
+
+@media (max-width: 1200px){
+    .coursesText{
+        width: 27%;
+    }
+}
+
+
 /* Code for responsive footer  */
 @media (max-width: 890px) {
     .column1,
@@ -502,6 +514,26 @@ a:hover {
 
 }
 
+@media (max-width: 800px){
+    /* Learning section */
+    #learning{
+        padding: 3rem;
+    }
+
+    #learningTilesContainer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .coursesText{
+        width: 25%;
+    }
+}
+
+
+
 
 @media (max-width: 600px){
 
@@ -512,6 +544,16 @@ a:hover {
     .exhibitOne{
         margin-bottom: 1rem;
     }
+    
+    .coursesText{
+        width: 35%;
+    }
+
+
+    #learning{
+        padding: 2rem;
+    }
+
 }
 
 @media (max-width: 500px) {
@@ -528,7 +570,23 @@ a:hover {
         margin-top: 20px;
         padding-left: 4%;
     }
+    
+    #learning{
+        padding: 0;
+    }
+
+    .coursesText{
+        width: 40%;
+    }
 }
+
+
+@media screen and (max-width: 330px){
+    .coursesText{
+        width: 45%;
+    }
+}
+
 /* Code for responsive footer ends here  */
 
 
