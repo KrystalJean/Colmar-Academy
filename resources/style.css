@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    position: relative;
+}
 #navbar {
     background: linear-gradient(90deg, rgba(232,216,67,1) 0%, rgba(219,202,105,1) 100%);
     opacity: 85%;
@@ -313,7 +315,7 @@ li {
 
 .btn {
     width: 100%;
-    position: relative;
+    /*position: relative;*/
 
     display: block;
     margin: 0 auto;
@@ -626,3 +628,96 @@ a:hover {
 }
 
 
+/* responsive navbar */ 
+#humberger , #check {
+    display: none;
+}
+@media screen and (max-width:989px){
+    /* resizing the logo */
+    #navbar {
+        display: flex;
+        align-items: center;
+    }
+    #logoIcon {
+        height: 40px;
+        margin: 0;
+    }
+    
+    #fullLogo {    
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    width: max-content;
+    margin: 0;
+    }
+
+    #humberger {
+        display:grid;
+        place-items:center;
+        width:30px;
+        height:24px;
+        position:absolute;
+        top: 20px;
+        right: 24px;
+        z-index: 99;
+    }
+    #humberger  div{
+        background-color:black;
+        width:100%;
+        height:3px;
+      }
+      #humberger  div::before,
+      #humberger  div::after{
+        content:"";
+        right:0;
+        left:0;
+        height:3px;
+        position:absolute;
+        background-color:black;
+        transform-origin:left center;
+      }
+      #humberger  div::before{
+        top:0px;
+      }
+      #humberger  div::after{
+        bottom:0px;
+      }
+      #humberger  > * {
+        transition:all 0.3s;
+      }
+      #check:checked + label div{
+        /*transform:translateX(-30px);*/
+        background-color:transparent;
+      }
+      
+      #check:checked + label div::before{
+        transform:rotate(45deg) ;
+        background-color: white;
+      }
+      #check:checked + label div::after{
+        transform:rotate(-45deg);
+        background-color: white;
+      }
+      #nav-links {
+          position: fixed;
+          top: 0;
+          width: 100%;
+          height: max(100vh,300px);
+          left: -100%;
+          transition: all 0.3s;
+          background-color: rgba(0, 0, 0, .6);
+          display: grid;
+          place-content: center;
+      }
+      #nav-links ul {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 30px;
+      }
+      #check:checked ~ #nav-links {
+        left: 0;
+      }
+}
