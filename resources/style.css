@@ -380,7 +380,7 @@ li {
 /* footer begin from here  */
 footer {
     background: linear-gradient(90deg, rgba(219,202,105,1) 0%, rgba(210,188,62,1) 100%);
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-family: "Inter", sans-serif;
     width: 100%;
 }
@@ -405,12 +405,12 @@ footer {
 }
 .column1 a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .column2 a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 19px;
     padding: 5px 20px;
     border-radius: 15px;
