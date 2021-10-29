@@ -388,10 +388,15 @@ footer {
     text-align: left;
 }
 .column1 h5 {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .column1 a {
     text-decoration: none;
+    color: #fff;
+}
+
+.column1 p {
+    padding: 4px 0px;
     color: #fff;
 }
 
@@ -470,7 +475,7 @@ a:hover {
 @media (max-width: 890px) {
     .column1,
     .column2 {
-        width: 50%;
+        width: 80%;
     }
     .contactLinks {
         margin-top: 10px;
