@@ -651,7 +651,7 @@ a:hover {
     width: max-content;
     margin: 0;
     }
-
+    
     #humberger {
         display:grid;
         place-items:center;
@@ -706,7 +706,7 @@ a:hover {
           height: max(100vh,300px);
           left: -100%;
           transition: all 0.3s;
-          background-color: rgba(0, 0, 0, .6);
+          background-color: rgba(0, 0, 0, .8);
           display: grid;
           place-content: center;
       }
@@ -720,4 +720,54 @@ a:hover {
       #check:checked ~ #nav-links {
         left: 0;
       }
+}
+
+/* Code for responsive practicing section  */
+@media (max-width: 890px) {
+    
+
+    #practicing{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #currentEventsContainer{
+        width: 90vw;
+        display: flex;
+        /*align-items: center;*/
+        gap: 20px;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .currentEvent{
+        width: 100%;
+        margin: 0 2rem;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        margin: 0;
+    }
+    #infoMain{
+        width: 100%;
+        padding: 20px;
+        margin: 0;
+    }
+    .eventImages{
+        width: 100%;
+    }
+    .eventTexts{
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+    }
+    
+}
+
+@media (max-width: 600px){
+
+    #currentEventsContainer{
+        flex-direction: column;
+        width: 80vw;
+    }
 }
